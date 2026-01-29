@@ -1,0 +1,22 @@
+/* insights */
+.insight-banner{
+  background-image: url("/img/insight.png");
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  top: 0;
+  width: auto;
+  height: 60vh;
+  position: relative;
+}
+/* case studies */
+.case-study-banner{
+  background-image: url("/img/case-study.png");
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  top: 0;
+  width: auto;
+  height: 60vh;
+  position: relative;
+}

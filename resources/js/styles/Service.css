@@ -1,0 +1,80 @@
+.services-details{
+   background: linear-gradient(#1746841f, transparent 90%),
+  #174684 url('/img/img-details.png') no-repeat center;
+  background-size: cover;
+ width: 100%;
+}
+.insight-details{
+  background-image: url('/img/.insight-details.png');
+  background-size: cover;
+  height: 100%;
+}
+.left-service{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 0 auto;
+}
+.right-service{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.service-card{
+  background-color: #fff;
+  color: #000;
+  filter: drop-shadow(0px 4px 38px rgba(0, 0, 0, 0.25));
+  padding: 2rem;
+  border-radius: 23px;
+}
+.advantage{
+  box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.08);
+
+}
+.advantage-content{
+  border: 1px solid #174684;
+  box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.08);
+}
+
+
+
+.card-row{
+  padding: 0 !important;
+}
+.main-card:last-child{
+  background-color: #C6D8EF !important;
+}
+
+.benefit{
+   background: #FDFDFD;
+  box-shadow: 13px 4px 54px rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+}
+
+.btn-secondary {
+  background-color: #174684 !important;
+  color: #fff !important;
+  padding: 0 !important;
+}
+.btn-secondary-2 {
+  background-color: #174684 !important;
+  color: #fff !important;
+  padding: 10px 15px 10px 15px!important;
+}
+
+.service-wrapper-2{
+  padding: 0 2rem 0 2rem;
+  margin: 0 2rem 0 2rem;
+}
+
+@media(max-width:960px){
+  .service-wrapper-2{
+  padding: 0 5px 0 5px;
+  margin: 0 5px 0 5px;
+}
+}

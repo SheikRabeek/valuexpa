@@ -1,44 +1,15 @@
-# -------------------------
-# Dependencies
-# -------------------------
-/vendor
-
-# -------------------------
-# Environment
-# -------------------------
-.env
-.env.*
-.env.backup
-
-# -------------------------
-# Ignore FULL public folder
-# -------------------------
-/public
-
-# -------------------------
-# Storage & cache
-# -------------------------
+/node_modules
+/public/hot
+/public/storage
 /storage/*.key
-/storage/framework/cache/*
-/storage/framework/sessions/*
-/storage/framework/views/*
-/storage/logs/*
-
-# -------------------------
-# Bootstrap cache
-# -------------------------
-/bootstrap/cache/*
-!/bootstrap/cache/.gitignore
-
-# -------------------------
-# Logs
-# -------------------------
-*.log
-
-# -------------------------
-# IDE / OS
-# -------------------------
+/vendor
+.env
+.env.backup
+.phpunit.result.cache
+docker-compose.override.yml
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
 /.idea
 /.vscode
-.DS_Store
-Thumbs.db

@@ -4,7 +4,7 @@
            <div class="container">
                 <div class="row justify-center align-center text-center content-2">
                     <div class="col-lg-6 col-md-8">
-                        <h2><b>Find hidden margin leakage in your supply chain — in 30 days</b></h2>
+                        <h2><b>Find hidden margin leakage in your supply chain — in 30 day</b></h2>
                         <p><b>A focused diagnostic for US$30–100m businesses. Delivered by ValueXPA. Powered by Fynflo - our Enabler Technology Solution</b></p>
                         <!-- <br><a href="/contact-us" class="btn btn-primary w-75 mb-3">
                         Before fixing leakage, quantify it. Request Diagnostic Overview</a> -->

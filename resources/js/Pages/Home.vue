@@ -3,7 +3,7 @@
         <div class="container mb-3">
             <div class="row justify-left align-left text-left content">
                 <div class="col-lg-6 col-md-8">
-                    <h1>Helping CFOs identify, protect, and unlock business values</h1>
+                    <h1>Helping CFOs identify, protect, and unlock business value</h1>
                     <p>ValueXPA partners with CFOs to uncover hidden value leaks, strengthen financial control, and
                         enable confident, data-driven decisions.</p>
 

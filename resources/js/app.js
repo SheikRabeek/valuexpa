@@ -13,7 +13,7 @@ import "./styles/Resources.css"
 // import "./styles/cookie.css"
 
 // Import Center component
-import Center from './components/Center.vue' // Adjust path as needed
+
 
 const app = createApp(App)
 

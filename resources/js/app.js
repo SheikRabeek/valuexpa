@@ -1,6 +1,5 @@
 require('./bootstrap');
 
-
 import VueGtag from "vue-gtag";
 import { createApp } from 'vue'
 import App from './App.vue'
@@ -13,11 +12,16 @@ import "./styles/Categories.css"
 import "./styles/Resources.css"
 // import "./styles/cookie.css"
 
-
+// Import Center component
+import Center from './components/Center.vue' // Adjust path as needed
 
 const app = createApp(App)
 
+// Register Center component globally
+app.component('center', Center) // Now <center> can be used anywhere
+
 app.use(router)
 app.use(VueGtag, {
-    config: { id: "G-J44EEK3GSP" }})
+    config: { id: "G-J44EEK3GSP" }
+})
 app.mount('#app')
